@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+   
+    background-color: #9FFFCB;
+
+}
+h1{
+    height:5rem ;
+    background-color:#004E64 ;
+    line-height:5rem;
+    color:#9FFFCB ;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 6rem;
+
+}
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+.gameloop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+
+.msg-container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msg{
+    background-color: #004E64;
+    display: inline;
+    padding: 1rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
